@@ -1,0 +1,18 @@
+{
+  "name": "at-list",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jaekschmitt/at-list",
+  "description": "A javascript plugin to deliverable tagable content within text inputs.",
+  "main": "Gruntfile.js",
+  "authors": [
+    "jaekschmitt"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
