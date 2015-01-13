@@ -2,15 +2,24 @@
   "name": "at-list",
   "version": "0.0.1",
   "description": "A javascript plugin to deliverable tagable content within text inputs.",
-  "main": "Gruntfile.js",  
+  "main": "Gruntfile.js",
+  "author": "jaekschmitt",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaekschmitt/at-list.git"
   },
-  "author": "jaekschmitt",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jaekschmitt/at-list/issues"
   },
-  "homepage": "https://github.com/jaekschmitt/at-list"
+  "homepage": "https://github.com/jaekschmitt/at-list",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.6",
+    "http-server": "^0.7.4",
+    "matchdep": "^0.3.0",
+    "mocha": "^2.1.0"
+  }
 }
