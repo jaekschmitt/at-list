@@ -1,6 +1,41 @@
 <html>
-	<head></head>
-	<body>
-		
-	</body>
+<head>
+	<title>Basic Example</title>
+
+	<link rel="stylesheet" type="text/css" href="../../bower_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.container {
+			margin-top: 50px;
+		}
+
+		textarea {
+			min-height: 200px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="well text-center">
+					<h2>Basic Example</h2>
+				</div>
+				<textarea class="form-control"></textarea>
+			</div>
+		</div>			
+	</div>		
+
+	<script type="text/javascript" src="../../bower_modules/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="../../dist/at-list.js"></script>
+
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+			$('textarea').atList();
+		});
+
+	</script>
+</body>
 </html>
